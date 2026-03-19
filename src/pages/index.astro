@@ -1,0 +1,15 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Game from "../components/game";
+import Test from "../components/test";
+---
+
+<Layout>
+  <main>
+    <Game client:only="preact" />
+  </main>
+</Layout>
+
+<style is:global>
+
+</style>
