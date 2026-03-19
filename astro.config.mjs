@@ -5,6 +5,6 @@ import preact from "@astrojs/preact";
 // https://astro.build/config
 export default defineConfig({
   integrations: [preact()],
-  base: "/2048",
-  outDir: "2048",
+  base: "",
+  outDir: "dist",
 });
